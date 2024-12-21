@@ -167,7 +167,6 @@
   font-size: 14px;
   text-transform: inherit;
   background-color: var(--bg-color, #fff);
-  transition: box-shadow 0.3s ease;
   border: 2px solid var(--border-color, #000);
   font-family: var(--font-accent);
   cursor: pointer;
@@ -284,7 +283,7 @@
 }
 
 .filter-multiple {
-  filter: contrast(50%), hue-rotate(50deg) saturate(100%);
+  filter: contrast(50%) hue-rotate(50deg) saturate(100%);
 }
 
 .filter-saturate {
