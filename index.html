@@ -296,17 +296,16 @@
                     <button class="card__like-button button" type="button"><span class="button__text">Like</span></button>
                 </div>
             </article>
-        </main>
-        <footer class="footer">
-            <button class="button button-save" type="button" onclick="window['dialog-save'].showModal();" aria-controls="dialog-save">
+            <section class="footer">
+              <button class="button button-save" type="button" onclick="window['dialog-save'].showModal();" aria-controls="dialog-save">
                 <svg viewBox="0 0 21 21">
-                    <use href="./svg/floppy.svg#floopy" />
+                  <use href="./svg/floppy.svg#floopy" />
                 </svg>
                 <span class="button__text">Сохранить на память</span>
-            </button>
-        </footer>
-        <dialog class="dialog-modal" id="dialog-save">
-            <form method="dialog">
+              </button>
+            </section >
+            <dialog class="dialog-modal" id="dialog-save">
+              <form method="dialog">
                 <div class="dialog-form">
                     <svg class="floopy-button-big" viewBox="0 0 21 21">
                         <use href="./svg/floppy.svg#floopy" />
@@ -318,6 +317,7 @@
                 </button>
             </form>
         </dialog>
+    </main>    
         <script src="./scripts/like.js"></script>
     </body>
 </html>

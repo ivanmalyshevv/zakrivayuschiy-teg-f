@@ -100,6 +100,8 @@
 }
 
 .card-image {
+  object-fit: cover;
+  object-position: center;
   display: block;
   inline-size: 100%;
   block-size: 100%;
@@ -139,6 +141,7 @@
   padding: 0;
   border: 2px solid transparent;
   background-color: transparent;
+  transition: border 0.3s ease;
 }
 
 .card__icon-button:focus {
@@ -172,7 +175,7 @@
   cursor: pointer;
   overflow: hidden;
   block-size: 38px;
-  transition: color 0.3s ease-in-out;
+  transition: box-shadow 0.3s ease;
   appearance: none;
   color: var(--border-color, #000);
 }
@@ -209,7 +212,6 @@
   color: var(--button-color, #fff);
   font-family: var(--font-accent);
   mix-blend-mode: difference;
-  transition: color 0.3s ease;
   z-index: 2;
 }
 
