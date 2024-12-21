@@ -140,7 +140,6 @@
     padding: 0;
     border: 2px solid transparent;
     background-color: transparent;
-    transition: border 0.3 ease;
   }
 
   .card__icon-button:focus {
@@ -175,7 +174,7 @@
     cursor: pointer;
     overflow: hidden;
     block-size: 38px;
-    transition: transform 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
     appearance: none;
     color: var(--border-color, #000);
   }
@@ -310,6 +309,7 @@
   }
 
   @media (width <= 375px)  {
+
     .header {
       padding-block-start: 118px;
       padding-block-end: 113px;
@@ -325,7 +325,7 @@
     }
 
     .main {
-       gap: 50 px;
+       gap: 50px;
     }
 
     .card-label {
@@ -352,6 +352,6 @@
 
     .dialog-button {
       inline-size: 257px;   
-    }
-  }
+   }
+}
 
